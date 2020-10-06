@@ -23,10 +23,14 @@ export class Watercolor extends Component {
         return (
             <div>
                 <ol>
-                    {this.state.watercolor.map(e=><li>
-                        {e.img}
-
-                    </li>)}
+                    {
+                    this.state.watercolor.map(e=>
+                        <li>{e.nombre}
+                        <img src= {e.imagen}/>  
+                        </li>
+                       )
+                       
+                       }
                 </ol>
             </div>
         )

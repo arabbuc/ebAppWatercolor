@@ -8,9 +8,9 @@ function Menu() {
     Dropdown
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">Action</button>
-    <button class="dropdown-item" type="button">Another action</button>
-    <button class="dropdown-item" type="button">Something else here</button>
+    <button class="dropdown-item" type="button">About me</button>
+    <button class="dropdown-item" type="button">Watercolors</button>
+    <button class="dropdown-item" type="button">Contact</button>
   </div>
 </div>
             
